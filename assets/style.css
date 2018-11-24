@@ -1,0 +1,108 @@
+body{
+	background:#ff6f69;
+}
+
+.title{
+	color:#f3f3f3;
+	cursor: pointer;
+	font-family: Impact;
+	font-size: 40px;
+	padding:10px;
+	border:2px solid #f3f3f3;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.field{
+	font-family: Impact;
+	font-size: 25px;
+	padding:20px;
+	padding-left: 15px;
+	margin:30px;
+	width: 100%;
+	background:#ff6f69;
+	border:0px solid red;
+	border-bottom: 2px solid #ffff8d;
+	color: #212121;
+	transition: 0.5s;
+}
+
+.field:hover{
+	border-bottom:2px solid #fff;
+}
+
+.field:focus{
+	background:#ffff8d;
+}
+
+.container{
+	margin:auto;
+	display:flex;
+	justify-content: center;
+  	align-items: center;
+  	width: 100%;
+  	border:0px solid #f3f3f3;
+
+}
+
+.container1{
+	color:#ffff8d;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+.btn{
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	margin:30px;;
+	color:#212121;
+	cursor: pointer;
+	text-decoration: none;	
+	background:#69f0ae;
+	border-radius:50%;
+	height: 84px;
+	width:84px;
+	font-size:15px;
+	position: absolute;
+	border:0px solid #f3f3f3;
+	box-shadow: 2px 4px 4px #1b5e20;
+
+}
+
+
+.btncont{
+	margin-top:10%;
+	display:flex;
+	justify-content: center;
+  	align-items: center;
+  	width: 100%;
+}
+
+.btn:hover{
+	transform: translateY(2px);
+	box-shadow: 0px 0px 0px #1b5e20;
+}
+
+.btn:active{
+	border:1px solid #1b5e20;
+}
+
+.link{
+	text-decoration: none;
+}
+
+h3,h4,h2{
+	width:100%;
+	display: inline-block;
+}
+
+@keyframes animateRight{
+	from{
+		width:0%;
+	}
+	to{
+		width:100%;
+	}
+}

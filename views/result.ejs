@@ -1,0 +1,31 @@
+<html>
+
+<head>
+	<title> url2short </title>
+	<link rel="stylesheet" type="text/css" media="screen" href="../assets/style.css" />
+</head>
+
+<body>
+
+	<a href="/" class="title">
+		url2short
+	</a>
+
+
+
+	<div class="container1">
+		<h3>Check out your new Link</h3>
+			
+		<h3>Short URL:</h3><a href="https://url2s.herokuapp.com/u2/<%=data.shorturl%>" class="link">https://url2s.herokuapp.com/u2/<%=data.shorturl%></a>
+		<h3>Long URL:</h3><a href="<%=data.url%>" class="link"><%=data.url%></a>
+
+		<p>
+			How to use?
+			Just remember the code after 'https://url2s.herokuapp.com/u2/'. This is the short url code and use it in the browser.
+		</p>
+		
+	</div>
+
+</body>
+
+</html>
